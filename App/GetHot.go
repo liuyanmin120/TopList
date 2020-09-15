@@ -1396,7 +1396,7 @@ func main() {
 		"WaterAndWood",
 		"HacPai",
 		"KD",
-		"NGA",
+		// "NGA",
 		"WeiXin",
 		"Mop",
 		"Chiphell",
