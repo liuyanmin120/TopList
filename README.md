@@ -13,6 +13,9 @@
    go build -o ./App/GetHot App/GetHot.go
    go build -o ./App/Server App/Server.go 
    ```
+   CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ./App/GetHot App/GetHot.go
+   CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ./App/Server App/Server.go
+
    
 2. 创建数据库，如 `news`，执行database.sql创建表，更改配置文件`Config/mysql.toml`
 
