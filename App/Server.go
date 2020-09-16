@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"regexp"
 	"text/template"
+
 	"github.com/tophubs/TopList/Common"
 	"github.com/tophubs/TopList/Config"
 )
@@ -72,7 +73,7 @@ func main() {
 		t.Execute(res, nil)
 	})
 
-	err := http.ListenAndServe(":9090", nil) // 设置监听的端口
+	err := http.ListenAndServe(":19090", nil) // 设置监听的端口
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}
