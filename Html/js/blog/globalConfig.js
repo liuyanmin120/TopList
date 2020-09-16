@@ -1,4 +1,4 @@
-const ServerIp = 'http://127.0.0.1:9090'
+const ServerIp = 'http://new.codinglf.cn:19090'
 const ImgServerIp = 'https://www.printf520.com'
 //
 // const ServerIp = 'http://127.0.0.1:8080'
