@@ -1,14 +1,9 @@
 package main
 
 import (
-	"github.com/tophubs/TopList/Common"
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/PuerkitoBio/goquery"
-	"github.com/bitly/go-simplejson"
-	"golang.org/x/text/encoding/simplifiedchinese"
-	"golang.org/x/text/transform"
 	"io"
 	"io/ioutil"
 	"log"
@@ -18,6 +13,12 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/PuerkitoBio/goquery"
+	"github.com/bitly/go-simplejson"
+	"github.com/tophubs/TopList/Common"
+	"golang.org/x/text/encoding/simplifiedchinese"
+	"golang.org/x/text/transform"
 )
 
 type HotData struct {
@@ -1393,7 +1394,7 @@ func main() {
 		"ZHDaily",
 		"Segmentfault",
 		"WYNews",
-		"WaterAndWood",
+		//"WaterAndWood",
 		"HacPai",
 		"KD",
 		// "NGA",
